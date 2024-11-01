@@ -11,6 +11,10 @@ function App() {
           <p> Trying to be consistent in this </p>
           <p> Will complete the course soon </p>
      </Card>
+     <Card>
+      {/* When creating higher order component then we can use like this */}
+      Hello, Myself Amar Jondhalekar 
+     </Card>
     </>
   )
 }
