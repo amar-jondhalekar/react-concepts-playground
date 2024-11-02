@@ -10,6 +10,7 @@ const Button = (props) => {
         I don't do anything 
     </button>
     <input type="text" onChange={props.clickMe}/>
+    <button onSubmit={props.onSubmit} type='submit'>Submit</button>
     <p onMouseOver={props.clickMe} style={{border:"1px solid black"}}> I am a Para </p>
     </div>
     </>
