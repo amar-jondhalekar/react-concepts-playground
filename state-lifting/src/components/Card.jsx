@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Card = (props) => {
+const Card = (props, {title}) => {
   return (
     <div>
         <input type="text" onChange={(e) => props.setName(e.target.value)}/>
-        <p> Name state variable value inside card: {props.name} </p>
+        <p> Name state variable value inside {title} : {props.name} </p>
     </div>
   )
 }
