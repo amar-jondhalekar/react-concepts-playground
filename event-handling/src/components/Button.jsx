@@ -9,6 +9,7 @@ const Button = (props) => {
     <button onClick={props.clickMe}>
         I don't do anything 
     </button>
+    <input type="text" onChange={props.clickMe}/>
     </div>
     </>
   )
