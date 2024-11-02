@@ -8,7 +8,7 @@ function App() {
   return (
     <>
     {/* <button onClick={alert('clicked button')}>Click Me!</button> */}
-    {/* <button onClick={() => {alert('button clicked!')}}>click me!</button> */}
+    <button onClick={() => {alert('button clicked!')}}>click me!</button>
     {/* <Button clickMe={handleClick}></Button> */}
     </>
   )
